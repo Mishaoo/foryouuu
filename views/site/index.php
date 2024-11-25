@@ -41,8 +41,6 @@ $this->params['breadcrumbs'][] = $this->title;
                 <p><?= Html::encode($feedback->text) ?></p>
                 <small>Дата: <?= Yii::$app->formatter->asDatetime($feedback->created_at) ?></small>
             </div>
-            <!-- Додаємо роздільник після кожного відгука -->
-            <hr>
         <?php endforeach; ?>
     </div>
     <?php else: ?>
@@ -109,6 +107,5 @@ $this->params['breadcrumbs'][] = $this->title;
             <p>Або зателефонуйте: <a href="tel:+123456789">+0000</a></p>
         </div>
     </section>
-
 
 

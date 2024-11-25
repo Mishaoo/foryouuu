@@ -10,7 +10,7 @@ use yii\helpers\Url;
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Сайт Візитка</title>
-    <link rel="stylesheet" href="<?= Url::to('@web/css/style.css') ?>">
+    <link rel="stylesheet" href="<?= Url::to('@web/css/site.css?v=' . time()) ?>') ?>">
 </head>
 <body>
     <header>
@@ -38,6 +38,6 @@ use yii\helpers\Url;
         </div>
     </footer>
 
-    <script src="<?= Url::to('@web/js/scripts.js') ?>"></script>
+    <script src="<?= Url::to('@web/js/script.js') ?>"></script>
 </body>
 </html>

@@ -157,3 +157,10 @@ footer {
 .feedback-item small {
     color: #888;
 }
+
+
+.highlight {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
